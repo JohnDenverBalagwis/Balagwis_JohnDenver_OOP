@@ -225,13 +225,13 @@ public class methoddemo {
         System.out.println("The sum of int and byte is: " + m.sum(45, (byte) 50));
         System.out.println("The sum of byte and int is: " + m.sum((byte) 45, 50));
         System.out.println("The sum of long and double is: " + m.sum(45L, 50.50));
-        System.out.println("The sum of double and long is: " + m.sum(45.50, 50L));
+        System.out.println("The sum of double and long is: " + m.sum(45.50, 12121L));
         System.out.println("The sum of long and float is: " + m.sum(45L, 50.5F));
         System.out.println("The sum of float and long is: " + m.sum(45.5F, 50L));
         System.out.println("The sum of long and short is: " + m.sum(45L, (short) 50));
-        System.out.println("The sum of short and long is: " + m.sum((short) 45, 50L));
+        System.out.println("The sum of short and long is: " + m.sum((short) 45, 12121L));
         System.out.println("The sum of long and byte is: " + m.sum(45L, (byte) 50));
-        System.out.println("The sum of byte and long is: " + m.sum((byte) 45, 50L));
+        System.out.println("The sum of byte and long is: " + m.sum((byte) 45, 12121L));
         System.out.println("The sum of short and double is: " + m.sum((short) 45, 50.50));
         System.out.println("The sum of double and short is: " + m.sum(45.50, (short) 50));
         System.out.println("The sum of short and float is: " + m.sum((short) 45, 50.5F));
