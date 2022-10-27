@@ -192,8 +192,6 @@ public class methoddemo {
         return (a + b);
     }
 
-    // create a method overloading of combination of byte and long
-
     // main method
     public static void main(String[] args) throws Exception {
 
